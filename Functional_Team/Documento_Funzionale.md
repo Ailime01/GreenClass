@@ -4,7 +4,8 @@ Per l’integrazione del sistema nella piattaforma Salesforce è richiesta la pr
 
 ## Account
 Oggetto standard sulla piattaforma, relativo ai clienti. I field da inserire all’interno dell’oggetti verranno riferiti non appena giungeranno informazioni dal cliente.
-Per il momento si suppongono necessari Dati anagrafici (nome, cognome, emailanno di nascita, residenza). Al momento della registrazione il cliente dovrà ricevere un’email riguardante il successo dell’operazione. Va quindi creato un e-mail template contenente il seguente body:
+Per il momento si suppongono necessari Dati anagrafici (nome, cognome, emailanno di nascita, residenza).  
+Ciascun record dovrà contenere una related list dove si potrà visualizzare le opportunity associate.
 ### Template
 Al momento della registrazione il cliente dovrà ricevere un’email riguardante il successo dell’operazione. Va quindi creato un e-mail template contenente il seguente body:  
 
@@ -23,6 +24,7 @@ Oggetto standard nella piattaforma, relativo alle vendite. I field che deve cont
 Gli altri field verranno aggiunti una volta ricevute le informazioni da parte del cliente.
 Questo oggetto dovrà inoltre contenere al suo interno un Path relativo allo stato dell’ordine, dunque, conterrà i medesimi stati (Ordine Effettuato, In Consegna, Consegnato). 
 Non sono state fornite informazioni riguardanti i field da mostrare per ciascuno stato, quindi non inserirne alcuno.
+All'interno della pagina relativa ad un record, dovrà essere presente una related list dove sarà possibile visualizzare gli oggetti prodotto che sono stati venduti all'interno del record stesso.
 
 ## Prodotto
 Oggetto standard, relativo al prodotto, deve contenere Nome prodotto, Prezzo. Gli altri field verranno aggiunti una volta ricevute le informazioni da parte del cliente.

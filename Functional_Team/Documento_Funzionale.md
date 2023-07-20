@@ -4,7 +4,7 @@ Per l’integrazione del sistema nella piattaforma Salesforce è richiesta la pr
 
 ## Account
 Oggetto standard sulla piattaforma, relativo ai clienti. I field da inserire all’interno dell’oggetti verranno riferiti non appena giungeranno informazioni dal cliente.
-Per il momento si suppongono necessari Dati anagrafici (nome, cognome, emailanno di nascita, residenza).  
+Per il momento si suppongono necessari Dati anagrafici (nome, cognome, emailanno di nascita, residenza), punto vendita di appartenenza (picklist le cui scelte sono Punto Vendita 1, Punto Vendita 2,...)  
 Ciascun record dovrà contenere una related list dove si potrà visualizzare le opportunity associate.
 ### Template
 Al momento della registrazione il cliente dovrà ricevere un’email riguardante il successo dell’operazione. Va quindi creato un e-mail template contenente il seguente body:  

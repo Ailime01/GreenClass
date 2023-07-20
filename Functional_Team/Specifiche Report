@@ -1,15 +1,14 @@
 SPECIFICHE REPORT
 
--Report vendite:
-                Creare oggetto vendite, accedere all' app Sales e poi a reports. Creare report per vendite
-                e filtrarlo per: tipologia di prodotto venduta, prezzo, quantità e venditore.
-                In aggiunta mostrare anche gli o il venditore che ha venduto di più in quel mese
-                
-
 -Report prodotto: 
                 Creare oggetto prodotto, seguire stessa procedura. Creare report che mostri tutti i prodotti,
                 i relativi prezzi e altre informazioni da specificare.
                 In aggiunta mostrare anche i x prodotti più venduti in quel mese
+
+-Report vendite:
+                accedere all' app Sales e poi a reports. Creare report per vendite relativo all'oggetto prodotto
+                e filtrarlo per: tipologia di prodotto venduta, prezzo, quantità e venditore.
+                In aggiunta mostrare anche gli o il venditore che ha venduto di più in quel mese.
 
 -report magazzino:
                  Creare un report all'interno della pagina magazzino in cui visualizzare tutti i prodotti di 

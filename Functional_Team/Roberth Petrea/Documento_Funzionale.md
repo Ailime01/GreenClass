@@ -3,7 +3,7 @@
 Per l’integrazione del sistema nella piattaforma Salesforce è richiesta la presenza di 7 object:
 
 ## Account
-Oggetto standard sulla piattaforma, relativo ai clienti. I field da inserire all’interno dell’oggetti verranno riferiti non appena giungeranno informazioni dal cliente.
+Oggetto standard sulla piattaforma, relativo ai clienti. I field da inserire all’interno dell’oggeto verranno riferiti non appena giungeranno informazioni dal cliente.
 Per il momento si suppongono necessari Dati anagrafici (nome, cognome, emailanno di nascita, residenza), punto vendita di appartenenza (picklist le cui scelte sono Punto Vendita 1, Punto Vendita 2,...)  
 Ciascun record dovrà contenere una related list dove si potrà visualizzare le opportunity associate.
 ### Template
@@ -34,7 +34,7 @@ Oggetto standard, relativo al prodotto, deve contenere tipologia di prodotto (pi
 Oggetto custom, relativo ai venditori, i field che deve contenere sono i dati anagrafici del venditore (nome, cognome, anno di nascita, email), punto vendita di appartenenza. Gli altri field verranno aggiunti una volta ricevute le informazioni da parte del cliente.
 
 ## Magazzino
-Oggetto custom, relativo al magazzino; Si presume che debba contenere il field relativo alla quantità presente in magazzino di ciascuna tipologia di prodotto.
+Oggetto custom, relativo al magazzino; Si presume che debba contenere il field relativo alla quantità presente in magazzino di ciascuna tipologia di prodotto. Deve esserci anche il field relativo al punto vendita associato al magazzino.
 Gli altri field verranno aggiunti una volta ricevute le informazioni da parte del cliente.
 
 ## Punto Vendita

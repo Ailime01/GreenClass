@@ -1,6 +1,6 @@
 
 # Documento Funzionale
-Per l’integrazione del sistema nella piattaforma Salesforce è richiesta la presenza di 6 object:
+Per l’integrazione del sistema nella piattaforma Salesforce è richiesta la presenza di 7 object:
 
 ## Account
 Oggetto standard sulla piattaforma, relativo ai clienti. I field da inserire all’interno dell’oggetti verranno riferiti non appena giungeranno informazioni dal cliente.

@@ -36,11 +36,18 @@ The current members are:
 * Mauro Pantano
 
 ## Final product
+There will be 14 total licenses:
+* 11 Manager profiles. Each manager will be able to view, create and edit data regarding its own selling point
+* 2 CEO profiles. Each CEO will be able to view all data regarding every selling point. It will also be possibile for them to view a report containing the performance of the product sales and the individual sellers.
+* 1 System Administrator profile. This profile will have view and edit acces to all data, in order to manage the system.
 The final product will contain 6 objects:
 * Account, containing details on the clients
 * Lead, clients whose email hasn't been yet confirmed
-* Opportunity, 
-* Product
-* Seller
-* Warehouse
+* Opportunity, containing details about the sales done
+* Product, containing details about the products offered
+* Seller, containing details about the emplyees whose job is to sell products
+* Warehouse, containing details regarding the current state of the warehouse (products available etc.)
+
+
+  
 

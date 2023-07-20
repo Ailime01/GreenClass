@@ -6,6 +6,8 @@ Per l’integrazione del sistema nella piattaforma Salesforce è richiesta la pr
 Oggetto standard sulla piattaforma, relativo ai clienti. I field da inserire all’interno dell’oggetti verranno riferiti non appena giungeranno informazioni dal cliente.
 Per il momento si suppongono necessari Dati anagrafici (nome, cognome, emailanno di nascita, residenza). Al momento della registrazione il cliente dovrà ricevere un’email riguardante il successo dell’operazione. Va quindi creato un e-mail template contenente il seguente body:
 ### Template
+Al momento della registrazione il cliente dovrà ricevere un’email riguardante il successo dell’operazione. Va quindi creato un e-mail template contenente il seguente body:  
+
 “Caro {!Account.OwnerFullName}, 
 La tua registrazione è stata correttamente effettuata!
 Cordiali Saluti,

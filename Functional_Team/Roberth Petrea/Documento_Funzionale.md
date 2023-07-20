@@ -9,7 +9,7 @@ Ciascun record dovrà contenere una related list dove si potrà visualizzare le 
 ### Template
 Al momento della registrazione il cliente dovrà ricevere un’email riguardante il successo dell’operazione. Va quindi creato un e-mail template contenente il seguente body:  
 
-“Caro {!Account.OwnerFullName}, 
+“Caro {!Account.Name}, 
 La tua registrazione è stata correttamente effettuata!
 Cordiali Saluti,
 Il team di Lacoste”.
@@ -27,7 +27,7 @@ Non sono state fornite informazioni riguardanti i field da mostrare per ciascuno
 All'interno della pagina relativa ad un record, dovrà essere presente una related list dove sarà possibile visualizzare gli oggetti prodotto che sono stati venduti all'interno del record stesso.
 
 ## Prodotto
-Oggetto standard, relativo al prodotto, deve contenere Nome prodotto, Prezzo. Gli altri field verranno aggiunti una volta ricevute le informazioni da parte del cliente.
+Oggetto standard, relativo al prodotto, deve contenere tipologia di prodotto (picklist: T-shirt, Polo, Pants, Shoes, Jacket), Prezzo. Gli altri field verranno aggiunti una volta ricevute le informazioni da parte del cliente.
 
 ## Venditore
 Oggetto custom, relativo ai venditori, i field che deve contenere sono i dati anagrafici del venditore (nome, cognome, anno di nascita, email), punto vendita di appartenenza. Gli altri field verranno aggiunti una volta ricevute le informazioni da parte del cliente.

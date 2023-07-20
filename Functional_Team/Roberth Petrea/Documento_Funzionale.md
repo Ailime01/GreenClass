@@ -9,10 +9,11 @@ Ciascun record dovrà contenere una related list dove si potrà visualizzare le 
 ### Template
 Al momento della registrazione il cliente dovrà ricevere un’email riguardante il successo dell’operazione. Va quindi creato un e-mail template contenente il seguente body:  
 
-“Caro {!Account.Name}, 
-La tua registrazione è stata correttamente effettuata!
-Cordiali Saluti,
-Il team di Lacoste”.
+“Caro {!Account.Name},  
+La tua registrazione è stata correttamente effettuata!  
+Cordiali Saluti,  
+Il team di Lacoste”.  
+
 Una volta che il cliente verrà registrato dovrà quindi ricevere l’email di conferma tramite logica flow. La logica sarà che al momento della creazione del record relativo all'oggetto "Account", verrà recapitata un'email, utilizzando il template, all'indirizzo specificato nell'account stesso.
 
 ## Lead 

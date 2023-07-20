@@ -18,7 +18,8 @@ Una volta che il cliente verrà registrato dovrà quindi ricevere l’email di c
 
 ## Lead 
 Oggetto standard sulla piattaforma, relativo ai clienti la cui e-mail non è stata ancora confermata. Non appena giungeranno le informazioni dal cliente verranno specificati di seguito i fields che tale oggetto dovrà contenere;
-per il momento inserire gli stessi field relativi all’oggetto Account. 
+per il momento inserire gli stessi field relativi all’oggetto Account.  
+La registrazione deve poter avvenire anche tramite sito web dell'azienda, va dunque implementata tramite Web-to-Lead selezionando come "selected fields" tutti i campi disponibili.
 
 ## Opportunity
 Oggetto standard nella piattaforma, relativo alle vendite. I field che deve contenere si presume siano Incasso, Data di Conclusione, Venditore, Cliente (account), stato dell’ordine (Ordine effettuato, In Consegna, Consegnato).

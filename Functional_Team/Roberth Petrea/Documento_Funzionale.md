@@ -35,3 +35,10 @@ Oggetto custom, relativo ai venditori, i field che deve contenere sono i dati an
 ## Magazzino
 Oggetto custom, relativo al magazzino; Si presume che debba contenere il field relativo alla quantità presente in magazzino di ciascuna tipologia di prodotto.
 Gli altri field verranno aggiunti una volta ricevute le informazioni da parte del cliente.
+
+## Punto Vendita
+Oggetto custom contenente le informazioni dei punti vendita:
+* Nome
+* Regione
+* Provincia
+  

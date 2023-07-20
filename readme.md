@@ -49,6 +49,7 @@ The final product will contain 6 objects:
 * Product, containing details about the products offered
 * Seller, containing details about the emplyees whose job is to sell products
 * Warehouse, containing details regarding the current state of the warehouse (products available etc.)
+* Selling point, containing details regarding the regional selling points of the business
 
 
   

@@ -6,8 +6,9 @@ SPECIFICHE REPORT
                 In aggiunta mostrare anche i x prodotti più venduti in quel mese
 
 -Report vendite:
-                accedere all' app Sales e poi a reports. Creare report per vendite relativo all'oggetto prodotto
-                e filtrarlo per: tipologia di prodotto venduta, prezzo, quantità e venditore.
+                Creare oggetto vendita, che sarà una opportunity 
+                accedere all' app Sales e poi a reports. Creare report per vendite relativo all'opportunity
+                e filtrarlo per: tipologia di prodotto venduta, prezzo, quantità,venditore e acquirente.
                 In aggiunta mostrare anche gli o il venditore che ha venduto di più in quel mese.
 
 -report magazzino:

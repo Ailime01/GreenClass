@@ -1,6 +1,6 @@
 # Salesforce platform use case 
-This repository's purpose is to work on a use case relating the implementation of the Salesforce platform. Each individual member of the team shall
-upload its work inside the related team's folder. The folders will be divided based on the two teams working on the project.
+This repository's purpose is to work on a use case relating the implementation of the Salesforce platform for the company Lacoste. 
+Each individual member of the team shall upload its work inside the related team's folder. The folders will be divided based on the two teams working on the project.
 
 ## The Team
 The team management is assigned to **Giulia Silipo**, the team leader.
@@ -35,5 +35,12 @@ The current members are:
 * Leonardo Silvestri
 * Mauro Pantano
 
-
+## Final product
+The final product will contain 6 objects:
+* Account, containing details on the clients
+* Lead, clients whose email hasn't been yet confirmed
+* Opportunity, 
+* Product
+* Seller
+* Warehouse
 

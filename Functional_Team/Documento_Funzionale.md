@@ -12,7 +12,7 @@ Al momento della registrazione il cliente dovrà ricevere un’email riguardante
 La tua registrazione è stata correttamente effettuata!
 Cordiali Saluti,
 Il team di Lacoste”.
-Una volta che il cliente verrà registrato dovrà quindi ricevere l’email di conferma tramite logica flow.
+Una volta che il cliente verrà registrato dovrà quindi ricevere l’email di conferma tramite logica flow. La logica sarà che al momento della creazione del record relativo all'oggetto "Account", verrà recapitata un'email, utilizzando il template, all'indirizzo specificato nell'account stesso.
 
 ## Lead 
 Oggetto standard sulla piattaforma, relativo ai clienti la cui e-mail non è stata ancora confermata. Non appena giungeranno le informazioni dal cliente verranno specificati di seguito i fields che tale oggetto dovrà contenere;

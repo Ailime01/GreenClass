@@ -46,9 +46,8 @@ The final product will contain 6 objects:
 * Account, containing details on the clients
 * Lead, clients whose email hasn't been yet confirmed
 * Opportunity, containing details about the sales done
-* Product, containing details about the products offered
+* Product, containing details about the products offered, including the number of total products available
 * Seller, containing details about the emplyees whose job is to sell products
-* Warehouse, containing details regarding the current state of the warehouse (products available etc.)
 * Selling point, containing details regarding the regional selling points of the business
 
 

@@ -55,8 +55,8 @@ Oggetto custom, relativo ai venditori, i field che deve contenere sono:
 * Email
 * Telefono
 * Prodotto venduto
-* Punto vendita di appartenenza.
-* Ranking nello store
+* Punto vendita di appartenenza
+* Ranking vendite nel punto vendita
 * Ranking vendite globale
 
 ## Sales Point

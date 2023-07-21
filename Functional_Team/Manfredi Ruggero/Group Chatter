@@ -1,1 +1,6 @@
 Group Chatter
+
+Creare un Group Chatter Service partendo dall'app Groups.
+Chiamare il gruppo Sales Team e aggiungere al gruppo, che dovrà avere visibilità privata,
+i due "Ceo" e gli 11 manager dei punti vendita.
+

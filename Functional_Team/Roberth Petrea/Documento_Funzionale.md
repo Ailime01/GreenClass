@@ -41,13 +41,13 @@ Questo oggetto dovrà inoltre contenere al suo interno un Path relativo allo sta
 Non sono state fornite informazioni riguardanti i field da mostrare per ciascuno stato, quindi non inserirne alcuno.
 All'interno della pagina relativa ad un record, dovrà essere presente una related list dove sarà possibile visualizzare gli oggetti prodotto che sono stati venduti all'interno del record stesso.
 
-## Prodotto
+## Product
 Oggetto standard, relativo al prodotto, deve contenere:
 * Tipologia di prodotto (picklist: T-shirt, Polo, Pants, Shoes, Jacket, Socks, Dress, Hat, Skirt, Bag)
 * Prezzo
 * Quantità di prodotto  
 
-## Venditore
+## Seller
 Oggetto custom, relativo ai venditori, i field che deve contenere sono:
 * Nome
 * Cognome
@@ -55,7 +55,7 @@ Oggetto custom, relativo ai venditori, i field che deve contenere sono:
 * Prodotto venduto
 * Punto vendita di appartenenza.  
 
-## Punto Vendita
+## Sales Point
 Oggetto custom contenente le informazioni dei punti vendita:
 * Nome
 * Regione

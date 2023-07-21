@@ -10,7 +10,8 @@ Campi:
 * Numero Tessera
 * Email
 * Prodotto acquistato
-* Punto vendita di appartenenza (picklist le cui scelte sono Punto Vendita 1, Punto Vendita 2,...)  
+* Punto vendita di appartenenza (picklist le cui scelte sono Punto Vendita 1, Punto Vendita 2,...)
+  
 Ciascun record dovrà contenere una related list dove si potrà visualizzare le opportunity associate.
 ### Template
 Al momento della registrazione il cliente dovrà ricevere un’email riguardante il successo dell’operazione. Va quindi creato un e-mail template contenente il seguente body:  
@@ -33,7 +34,8 @@ Oggetto standard nella piattaforma, relativo alle vendite. I field che deve cont
 * Data di Conclusione
 * Venditore
 * Cliente (account)
-* Stato dell’ordine (Ordine effettuato, In Consegna, Consegnato).  
+* Stato dell’ordine (Ordine effettuato, In Consegna, Consegnato).
+  
 Gli altri field verranno aggiunti una volta ricevute le informazioni da parte del cliente.
 Questo oggetto dovrà inoltre contenere al suo interno un Path relativo allo stato dell’ordine, dunque, conterrà i medesimi stati (Ordine Effettuato, In Consegna, Consegnato). 
 Non sono state fornite informazioni riguardanti i field da mostrare per ciascuno stato, quindi non inserirne alcuno.
